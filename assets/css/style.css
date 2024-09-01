@@ -1,0 +1,201 @@
+/*General styles*/
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff; /* Platinum */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.contacts-section {
+    flex: 0 0 25%; /* Fixed width for contacts section */
+    background-color: #ffffff; /* Gray #BEC1BB */
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 100vh; /* Full height of the viewport */
+    overflow-y: auto;
+}
+
+.user-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #1B1F21; /* Dark Jungle */
+    font-size: 16px; /* Medium */
+}
+
+.user-status-text {
+    font-size: 14px; /* Small */
+    color: #444749; /* Outer Space */
+}
+
+.user-icons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.user-icons i {
+    color: #444749; /* Outer Space */
+    cursor: pointer;
+}
+
+.new-chat-button {
+    background-color: #A491D2; /* Blue Bell */
+    color: #FFF;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px; /* Medium */
+    cursor: pointer;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.new-chat-button:hover {
+    background-color: #CDC3E6; /* Soap */
+}
+
+.new-chat-button:focus {
+    outline: 2px solid #D4DCFF; /* Pale Lavender */
+}
+
+/* Contact list styles */
+.contacts {
+    flex: 0 0 300px; /* Adjust the width of the contacts section */
+    background-color: #E8EBE4; /* Platinum */
+    padding: 1rem 0; /* Padding for top and bottom */
+    height: 100vh; /* Full height to stretch the contacts section */
+    overflow-y: auto; /* Enable scrolling if contacts list is long */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #BEC1BB; /* Gray border to separate contacts */
+}
+
+.contact-item:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
+
+.contact-thumbnail {
+    margin-right: 1rem;
+    border-radius: 50%;
+    width: 40px; /* Thumbnail size */
+    height: 40px; /* Thumbnail size */
+}
+
+.contact-info {
+    flex-grow: 1;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.contact-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-name {
+    font-size: 16px; /* Medium */
+    color: #1B1F21; /* Dark Jungle */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.2rem; /* Small margin below name */
+}
+
+.contact-message {
+    font-size: 14px; /* Small */
+    color: #828485; /* Old Silver */
+}
+
+.contact-status {
+    font-size: 14px; /* Small */
+    color: #828485; /* Old Silver */
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #2c03f7; /* Light border color #E8EBE4 */
+    margin: 0;
+}
+
+/* Main section styles */
+.main-section {
+    flex: 1;
+    background-color: #BEC1BB; /*GRAY */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-content {
+    text-align: center;
+    max-width: 500px;
+}
+
+.main-logo {
+    display: center;
+    margin: 0 auto 1 rem;
+    width: 150px;
+    height: auto;
+   /* margin-bottom: 1rem;*/
+}
+
+.main-heading {
+    font-size: 45px; /* Large */
+    color: #1B1F21; /* Dark Jungle */
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.main-description {
+    font-size: 14px; /* Small */
+    color: #828485; /* Old Silver */
+    margin-bottom: 1rem;
+}
